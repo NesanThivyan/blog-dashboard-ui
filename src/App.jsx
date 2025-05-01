@@ -18,7 +18,7 @@ function App() {
     
         <Routes>
           <Route path="/" element={<Login />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/blog-dashboard-ui/" element={<Login />} />
           <Route path="/admin-dashboard" element={<AdminDashboard />} />
           <Route path="/user-dashboard" element={<UserDashboard />} />
           <Route path="/add-blog" element={<AddBlogForm />} />
